@@ -53,9 +53,9 @@ class LCPImagePreloader {
       clonedImage.src = clonedImageDataURL;
       clonedImage.width = originalImage.width;
       clonedImage.height = originalImage.height;
-      clonedImage.decoding = "async";
+      /*clonedImage.decoding = "async";
       clonedImage.loading = "lazy";
-      clonedImage.fetchpriority = "low";
+      clonedImage.fetchpriority = "low";*/
       let span = document.createElement("span");
       span.className = "preview";
       span.appendChild(clonedImage);
